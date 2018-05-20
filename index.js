@@ -5,4 +5,4 @@ const facts = [ "He was the last Beatle to learn to drive", "He was never a vege
   "He hated the sound of his own voice"]
   function johnLennonFacts(array) {var i=0; while(i<array.length){array[i]=`${array[i]}`+`!!!`;i++};return array}
   var n=15
-  function iLoveTheBeatles(n){var array=[];var i=-1; do{array.push(`I love the Beatles!`);i++}while(i<n);return array}
+  function iLoveTheBeatles(n){var array=[];var i=-1; do{array.push(`I love the Beatles!`);i++}while(i<n && i<15);return array}
